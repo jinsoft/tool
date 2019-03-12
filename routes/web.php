@@ -14,6 +14,5 @@
 Route::get('/', 'IndexController@index');
 Route::get('json', 'JsonController@index')->name('json');
 Route::get('picture', 'PictureController@index')->name('picture');
-Route::get('qrcode', 'PictureController@qrcode')->name('qrcode');
-
-Route::get('test','IndexController@test');
+Route::post('qrcode', 'PictureController@qrcode')->name('qrcode');
+Route::get('color', 'PictureController@color')->name('color');

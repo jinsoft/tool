@@ -36,10 +36,15 @@
         </ul>
     </div>
 </div>
+<ul class="layui-fixbar">
+    <li class="layui-icon" lay-type="bar1" style=""></li>
+    <li class="layui-icon layui-fixbar-top" lay-type="top" style="display: list-item;"></li>
+</ul>
 @yield('content')
 <script src="{{asset('static/lib/jquery/jquery.min.js')}}"></script>
 <script src="{{asset('js/tool.js')}}"></script>
 <script src="{{asset('static/lib/layui/layui.js')}}"></script>
+<script src="{{asset('js/func.js')}}"></script>
 <script>
     layui.use('element');
 </script>

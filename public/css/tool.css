@@ -1,3 +1,4 @@
+.hidden{display:none}
 .layui-icon{margin-right:3px;}
 .text-center{text-align:center!important;}
 
@@ -32,3 +33,10 @@
 #right-box::-webkit-scrollbar-thumb{background:#FFA711;border-radius:4px;} /* 滚动条里面可以拖动的那部分*/
 #right-box::-webkit-scrollbar-corner{background:#82AFFF;} /*边角*/
 #right-box::-webkit-resizer{background:#FF0BEE;}  /*定义右下角拖动块的样式*/
+
+/**/
+.rle{width:3em!important;}
+.show-color{width:50px!important;height:38px;}
+
+
+abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{cursor:url(https://blog.phper.co/wp-content/uploads/2018/10/cursor.ico),auto}
